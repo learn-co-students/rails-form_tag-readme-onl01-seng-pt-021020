@@ -1,4 +1,5 @@
 Rails.application.configure do
+  config.web_console.whitelisted_ips = '<IP address here>'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
